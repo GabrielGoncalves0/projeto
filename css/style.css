@@ -1,0 +1,61 @@
+.marca {
+    font-size: 2.5rem;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7)
+}
+
+#inicio{
+    background-color: rgba(179, 179, 179, 0.192);
+}
+
+/* Cor dos Imputs*/
+
+.form-group .col-sm-9.sucess input {
+    border: 1px solid rgb(131, 196, 34);
+}
+
+.form-group .col-sm-9.sucess textarea {
+    border: 1px solid rgb(131, 196, 34);
+}
+
+.form-group .col-sm-9.error input {
+    border: 1px solid red;
+}
+
+.form-group .col-sm-9.error textarea {
+    border: 1px solid red;
+}
+
+.form-group .col-sm-9.error .preencher {
+    visibility: visible;
+    font-size: 12px;
+    color: red;
+}
+
+.form-group.error .preencher{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-group .preencher{
+    display: block;
+    visibility: hidden;
+    font-size: 5px;
+}
+
+
+.form-group small {
+    display: block;
+}
